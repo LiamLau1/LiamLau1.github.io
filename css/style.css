@@ -55,16 +55,18 @@ strong {
 }
 
 #about,
-#feature,
-#contact, 
-#hobbies{
+#education,
+#projects,
+#hobbies, 
+#skills{
   background: #ffffff;
 }
 
 #about,
-#feature,
-#contact,
+#education,
+#projects,
 #hobbies,
+#skills,
 footer {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -79,11 +81,13 @@ footer {
 #about .section-title {
   padding-bottom: 22px;
 }
-#contact .section-title {
+#hobbies .section-title {
   text-align: center;
 }
-
-#hobbies .section-title {
+#projects .section-title {
+  text-align: center;
+}
+#skills .section-title {
   text-align: center;
 }
 
@@ -283,22 +287,22 @@ footer {
 }
 
 
-/* feature section */
-#feature {
+/* education section */
+#education {
   background: #f1c11a;
 }
 
-#feature .icon {
+#education .icon {
   color: #ffffff;
   font-size: 42px;
   padding-right: 14px;
 }
 
-#feature p {
+#education p {
   color: #333;
 }
 
-#feature .btn {
+#education .btn {
     background: transparent;
     border: 3px solid #ffffff;
     border-radius: 0px;
@@ -313,29 +317,29 @@ footer {
     transition: all 0.4s ease-in-out;
 }
 
-#feature .btn:hover {
+#education .btn:hover {
   background: #ffffff;
   color: #333;
   border-color: transparent;
 }
 
 
-/* hobbies section */
-#hobbies {
+/* skills section */
+#skills {
   background: #f1c11a;
 }
 
-#hobbies .icon {
+#skills .icon {
   color: #ffffff;
   font-size: 42px;
   padding-right: 14px;
 }
 
-#hobbies p {
+#skills p {
   color: #333;
 }
 
-#hobbies .btn {
+#skills .btn {
     background: transparent;
     border: 3px solid #ffffff;
     border-radius: 0px;
@@ -350,15 +354,15 @@ footer {
     transition: all 0.4s ease-in-out;
 }
 
-#hobbies .btn:hover {
+#skills .btn:hover {
   background: #ffffff;
   color: #333;
   border-color: transparent;
 }
 
 
-/* contact section  */
-#contact .form-control {
+/* hobbies section  */
+#hobbies .form-control {
   background: transparent;
   border: 1px solid #f0f0f0;
   border-radius: 0px;
@@ -368,13 +372,13 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-#contact .form-control:hover {
+#hobbies .form-control:hover {
   border-color: #999;
 }
 
-#contact input {height: 55px;}
+#hobbies input {height: 55px;}
 
-#contact input[type='submit'] {
+#hobbies input[type='submit'] {
   background: #242424;
   border: none;
   color: #ffffff;
@@ -385,7 +389,39 @@ footer {
   margin-top: 10px;
 }
 
-#contact input[type='submit']:hover {
+#hobbies input[type='submit']:hover {
+  background: #f1c11a;
+}
+
+/* projects section  */
+#projects .form-control {
+  background: transparent;
+  border: 1px solid #f0f0f0;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 16px;
+  margin-bottom: 16px;
+  transition: all 0.4s ease-in-out;
+}
+
+#projects .form-control:hover {
+  border-color: #999;
+}
+
+#projects input {height: 55px;}
+
+#projects input[type='submit'] {
+  background: #242424;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 10px;
+}
+
+#projects input[type='submit']:hover {
   background: #f1c11a;
 }
 
@@ -557,10 +593,10 @@ footer a:hover {
     padding-bottom: 12px;
   }
 
-  #feature .col-md-4 {
+  #education .col-md-4 {
     padding-bottom: 32px;
   }
-  #hobbies .col-md-4 {
+  #skills .col-md-4 {
     padding-bottom: 32px;
   }
 
