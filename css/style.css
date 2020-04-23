@@ -223,24 +223,6 @@ footer {
             transform: scale(1); } }
 
 
-body {
-  background: linear-gradient(55deg, #4E75B9 30%, #5CBF98 90%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100vw;
-  margin: 0;
-  padding: 12vh 100px;
-  font-family: 'Source Sans Pro', arial, sans-serif;
-  font-weight: 300;
-  color: #333;
-  box-sizing: border-box;
-}
-body * {
-  box-sizing: border-box;
-}
-
 .timeline {
   width: 100%;
   max-width: 800px;
