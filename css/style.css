@@ -6,6 +6,13 @@ http://www.templatemo.com/tm-490-comila
 
 */
 
+// Colors
+$white: #fff;
+$black: #000;
+$primary: #d4a024;
+$gray: #616161;
+
+
 body
 	{
 		background: #ffffff;
