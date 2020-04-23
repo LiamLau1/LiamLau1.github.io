@@ -88,20 +88,22 @@ li a:hover:not(.active) {
      </div>
 </section>
 
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Clients</a>
+<a href="#">Contact</a>
+</div>
 
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-bars fa-2x"></i></span>
+
+<div id = "main">
 
 <!-- home section -->
 <section id="home">
-    <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-    </div>
 
-    <!-- Use any element to open the sidenav -->
-    <span onclick="openNav()">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-bars fa-2x"></i></span>
     <div class="container">
         <div class="row">
 
@@ -401,5 +403,7 @@ li a:hover:not(.active) {
 <script src="./js/wow.min.js"></script>
 <script src="./js/smoothscroll.js"></script>
 <script src="./js/custom.js"></script>
+
+</div>
 
 </body>
