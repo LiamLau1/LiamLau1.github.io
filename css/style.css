@@ -276,13 +276,13 @@ footer {
 }
 .entry .title h3 {
   margin: 0;
-  font-size: 120%;
+  font-size: 180%;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
 }
 .entry .title p {
   margin: 0;
-  font-size: 100%;
+  font-size: 150%;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 500;
 }
@@ -296,6 +296,7 @@ footer {
   line-height: 1.4em;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 500;
+  font-size: 150%;
 }
 .entry .body p:first-child {
   margin-top: 0;
@@ -307,6 +308,7 @@ footer {
   padding-left: 0;
   list-style-type: none;
   font-family: 'Rajdhani', sans-serif;
+  font-size: 100%;
   font-weight: 400;
 }
 .entry .body ul li:before {
