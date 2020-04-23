@@ -289,7 +289,7 @@ footer {
 
 /* education section */
 #education {
-  background: #102045;
+  background: #0A1836;
 }
 
 #education .icon {
@@ -326,7 +326,7 @@ footer {
 
 /* skills section */
 #skills {
-  background: #102045;
+  background: #0A1836;
 }
 
 #skills .icon {
@@ -340,7 +340,7 @@ footer {
 }
 
 #skills .btn {
-    background: transparent;
+    background: #0A1836;
     border: 3px solid #ffffff;
     border-radius: 0px;
     color: #ffffff;
@@ -363,7 +363,7 @@ footer {
 
 /* hobbies section  */
 #hobbies .form-control {
-  background: transparent;
+  background: #0A1836;
   border: 1px solid #f0f0f0;
   border-radius: 0px;
   box-shadow: none;
@@ -395,7 +395,7 @@ footer {
 
 /* projects section  */
 #projects .form-control {
-  background: transparent;
+  background: #0A1836;
   border: 1px solid #f0f0f0;
   border-radius: 0px;
   box-shadow: none;
