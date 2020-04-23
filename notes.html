@@ -71,7 +71,7 @@ li a:hover:not(.active) {
     </span>
 </ul>
 -->
-    <!-- preloader section -->
+    <!-- preloader section 
 <section class="preloader">
     <div class="sk-circle">
        <div class="sk-circle1 sk-child"></div>
@@ -88,27 +88,46 @@ li a:hover:not(.active) {
        <div class="sk-circle12 sk-child"></div>
      </div>
 </section>
+-->
+<!-- about section -->
+<section id="about">
+     <div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="./index.html#home"><span onclick="closeNav()">Home</span></a>
+<a href="./notes.html"><span onclick="closeNav()">Notes</span></a>
+<a href="#"><span onclick="closeNav()">Clients</span></a>
+<a href="./index.html#footer"><span onclick="closeNav()">Contact</span></a>
+</div>
 
-<!-- home section -->
-<section id="home">
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-bars fa-2x"></i></span>
+
+    <div id = "main">
     <div class="container">
         <div class="row">
 
-            <div class="col-md-offset-2 col-md-8 col-sm-12">
-                <div class="home-thumb">
-                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hello. I'm Liam</h1>
-                    <h3 class="wow fadeInUp" data-wow-delay="0.8s"><strong>Cambridge</strong> Physics Student.</h3>
-                    <a href="#about" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="1.0s">About Me</a>
-                    <a href="#education" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="1.0s">Education</a>
-                    <a href="#projects" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="1.0s">Experience</a>
-                    <!--
-                    <a href="#education" target="blank" class="btn btn-lg btn-default smoothScroll wow fadeInUp" data-wow-delay="1.2s">Education</a>
-                    <a href="https://www.linkedin.com/in/liamlhlau/" target="_blank" class="btn btn-lg btn-success smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
-                -->
+      <div class="col-md-6 col-sm-12">
+        <h1>Test</h1>
+      </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="about-thumb">
+                    <div class="section-title">
+                        <h1 class="wow fadeIn" data-wow-delay="0.2s">I'm a third year physics student at the University of Cambridge</h1>
+                        <h3 class="wow fadeInUp" data-wow-delay="0.4s">(That doesn't mean I just study equations all day)</h3>
+                    </div>
+                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+                        <font size="+0.5">
+                        <p><strong>Hey, I'm Liam. </strong><br><strong>I'm a third year physics student at Gonville and Caius College, Cambridge.</strong></p>
+                        <p>You can find my projects (which are mostly educational) on <a href="https://github.com/LiamLau1" class="fa fa-github wow bounceIn" data-wow-delay="0.9s" target="blank"> GitHub</a> or you can ask me about my ongoing projects via email.</p>
+                        <i class="fa fa-envelope"></i> <a href="mailto:liamlhlau@gmail.com" target="blank" data-wow-delay="1.4s"><strong>liamlhlau@gmail.com</strong></a>
+                    </font>
+                    </div>
                 </div>
             </div>
 
         </div>
-    </div>      
+    </div>
+</div>
 </section>
 </body>
