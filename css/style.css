@@ -278,6 +278,10 @@ footer {
 
 
 /* about section */
+#about {
+  background: #0A1836;
+}
+
 #about h3 {
     margin-top: 0px;
 }
@@ -362,6 +366,10 @@ footer {
 
 
 /* hobbies section  */
+#hobbies {
+  background: #0A1836;
+}
+
 #hobbies .form-control {
   background: #0A1836;
   border: 1px solid #f0f0f0;
@@ -394,6 +402,10 @@ footer {
 }
 
 /* projects section  */
+#projects {
+  background: #0A1836;
+}
+
 #projects .form-control {
   background: #0A1836;
   border: 1px solid #f0f0f0;
