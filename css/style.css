@@ -225,7 +225,7 @@ footer {
 
 .timeline {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   background: #fff;
   padding: 100px 50px;
   position: relative;
@@ -282,7 +282,7 @@ footer {
 .entry .body {
   margin: 0 0 3em;
   float: right;
-  width: 100%;
+  width: 66%;
   padding-left: 30px;
 }
 .entry .body p {
