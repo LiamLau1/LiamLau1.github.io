@@ -271,7 +271,7 @@ footer {
   background-color: #fff;
   border-radius: 100%;
   top: 15%;
-  right: -8px;
+  right: 8px;
   z-index: 99;
 }
 .entry .title h3 {
