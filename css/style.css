@@ -277,10 +277,12 @@ footer {
 .entry .title h3 {
   margin: 0;
   font-size: 120%;
+  font-family: 'Rajdhani', sans-serif;
 }
 .entry .title p {
   margin: 0;
   font-size: 100%;
+  font-family: 'Rajdhani', sans-serif;
 }
 .entry .body {
   margin: 0 0 3em;
@@ -290,19 +292,23 @@ footer {
 }
 .entry .body p {
   line-height: 1.4em;
+  font-family: 'Rajdhani', sans-serif;
 }
 .entry .body p:first-child {
   margin-top: 0;
   font-weight: 400;
+  font-family: 'Rajdhani', sans-serif;
 }
 .entry .body ul {
   color: #aaa;
   padding-left: 0;
   list-style-type: none;
+  font-family: 'Rajdhani', sans-serif;
 }
 .entry .body ul li:before {
   content: "–";
   margin-right: .5em;
+  
 }
 
 
