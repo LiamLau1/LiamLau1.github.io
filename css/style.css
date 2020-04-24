@@ -333,6 +333,7 @@ footer {
 
 .entry .body ul li a{
   color: #120193;
+  display: inline-block;
   margin-right: 0em;
   font-family: 'Rajdhani', sans-serif;
   font-size: 100%;
