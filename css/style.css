@@ -414,8 +414,8 @@ footer {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-        align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   height: 100vh;
   color: #ffffff;
@@ -423,6 +423,7 @@ footer {
 
 #home .home-thumb {
   text-align: center;
+  align-items: center;
 }
 
 #home .btn {
@@ -754,7 +755,7 @@ footer a:hover {
 }
 
 /* Mobile Responsive */
-@media (max-width: 980px) {
+@media (max-width: 3000px) {
 
   h1 {
     font-size: 2.4rem;
@@ -762,6 +763,7 @@ footer a:hover {
 
   #home {
     height: 65vh;
+    text-align: center;
   }
 
   #about .section-title {
