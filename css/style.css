@@ -301,6 +301,7 @@ footer {
 .entry .body p a{
   line-height: 1.4em;
   font-family: 'Rajdhani', sans-serif;
+  text-decoration: none;
   font-weight: 500;
   font-size: 100%;
 }
