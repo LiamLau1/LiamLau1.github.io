@@ -319,6 +319,7 @@ footer {
 
 .entry .body ul li a{
   color: #120193;
+  margin-right: 0;
   font-family: 'Rajdhani', sans-serif;
   font-size: 100%;
   font-weight: 450;
