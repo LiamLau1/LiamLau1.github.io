@@ -298,6 +298,15 @@ footer {
   font-weight: 500;
   font-size: 150%;
 }
+.entry .body p a{
+  line-height: 1.4em;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+}
+.entry .body p a:hover{
+  color: #fff;
+}
 .entry .body p:first-child {
   margin-top: 0;
   font-weight: 500;
