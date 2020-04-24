@@ -303,7 +303,7 @@ footer {
   font-weight: 500;
   font-family: 'Rajdhani', sans-serif;
 }
-.entry .body ul {
+.entry .body ul a{
   color: #120193;
   padding-left: 0;
   list-style-type: none;
@@ -311,7 +311,7 @@ footer {
   font-size: 120%;
   font-weight: 450;
 }
-.entry .body ul li:before {
+.entry .body ul li a:before {
   content: "–";
   margin-right: .5em;
 
