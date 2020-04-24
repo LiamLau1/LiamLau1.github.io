@@ -311,10 +311,23 @@ footer {
   font-size: 120%;
   font-weight: 450;
 }
-.entry .body ul li a:before {
+.entry .body ul li:before {
   content: "–";
   margin-right: .5em;
 
+}
+
+.entry .body ul li a{
+  color: #120193;
+  padding-left: 0;
+  list-style-type: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 120%;
+  font-weight: 450;
+}
+
+.entry .body ul li a:hover{
+  color: #fff;
 }
 
 
