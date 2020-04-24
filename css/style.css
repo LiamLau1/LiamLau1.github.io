@@ -303,7 +303,7 @@ footer {
   font-weight: 500;
   font-family: 'Rajdhani', sans-serif;
 }
-.entry .body ul a{
+.entry .body ul{
   color: #120193;
   padding-left: 0;
   list-style-type: none;
