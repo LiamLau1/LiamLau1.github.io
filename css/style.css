@@ -377,6 +377,21 @@ footer {
 
 }
 
+.iconlink2 {
+    text-decoration: none;
+    float: left;
+    color: black;
+    line-height: 40px;
+    display:inline-block;
+    position: relative;
+
+}
+
+.iconlink2:hover {
+    color: #f1c11a;
+
+}
+
 /* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
