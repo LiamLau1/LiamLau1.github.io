@@ -362,6 +362,21 @@ footer {
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
+.iconlink {
+    text-decoration: none;
+    float: left;
+    color: white;
+    line-height: 40px;
+    display:inline-block;
+    position: relative;
+
+}
+
+.iconlink:hover {
+    color: #f1c11a;
+
+}
+
 /* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
