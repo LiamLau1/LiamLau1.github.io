@@ -237,7 +237,31 @@ col-md-4 col-sm-16{
                     <div class="wow fadeInUp" data-wow-delay="0.8s">
                     	<font size="+0.5">
                             <p>\[H(\beta) = H_0 + \beta \Delta\]</p>
-                            <p>Testing testing</p>
+                            <p>\(H_0\) is the Hamiltonian of the <strong>unperturbed</strong> system that we know the full solution of. \(\Delta\) is defined as: </p>
+                            <p>\[\Delta \equiv H - H_0\]</p>
+                            <p>\(H\) is the Hamiltonian of the final system. \(\beta\) acts as the tuner which turns from 0 \(\rightarrow\) 1, going from the unperturbed system to the new system. We assume \(\Delta\) is small (the exact mathematical requirement is treated later). We do this because at the moment we are looking at systems that has a <strong>small response to a small perturbation</strong> (NOT a phase transition, no jumps in response) </p>
+                            <p>We know \(H(\beta)\) can be written as a function of \(\beta\). We <strong>CONJECTURE</strong> that the eigenkets, \(|E\rangle\), and eigenvalues, \(E\),  of \(H(\beta)\) are <strong>ANALYTIC</strong> functions of \(\beta\).</p>
+                            <p>We reason this by physical argument, small changes in the Hamiltonian only lead to <strong>small, smooth</strong> changes in energy and state (no steps or spikes). These equations are described by analytic functions.</p>
+                            <p>\[|E \rangle = |a\rangle + \beta |b\rangle + \beta^2 | c \rangle +...\]</p>
+                            <p>\[E = E_a + \beta E_b + \beta^2 E_c +...\]</p>
+                            <p>We require these series to <strong>converge</strong>, a necessary but insufficient condition is that we require the successive terms to be smaller and smaller. Ultimately we set beta as 1. </p>
+                            <p>Expanding the eigenvalue equation and comparing coefficients of beta</p>
+                            <p>\[(\hat{H}_0 + \beta\hat{\Delta})(|a\rangle + \beta |b\rangle ...) = (E_a + \beta E_b +...)(|a\rangle + \beta |b\rangle + ...)\]</p>
+                            <p>0th order in beta gives us</p>
+                            <p>\[\hat{H}_0 |a\rangle = E_a |a\rangle\]</p>
+                            <p>We interpret this as \(|a\rangle\) is an <strong>energy eigenket of the unperturbed Hamiltonian</strong> and \(E_a\) is the corresponding energy of unperturbed Hamiltonian. We now write \(|a \rangle \) and \(E_a\) with an nth subscript to denote level and a 0 superscript to denote unperturbed system. By <strong>projecting</strong> the result for first order in beta with the unperturbed energy eigenket, we get the first order correction of the energy \(E_b\) as:</p>
+                            <p>\[E_b = \langle E_n^{(0)} | \hat{\Delta}| E_n^{(0)} \rangle\]</p>
+                            <p>This leads to the requirement that we imposed before of small perturbation</p>
+                            <p>\[E_b \ll E_n^{(0)} \implies \langle E_n^{(0)} | \hat{\Delta}| E_n^{(0)} \rangle \ll E_n^{(0)}\]</p>
+                            <p>We assume higher order corrections get <strong>successively smaller</strong>. To find the first order correction to the eigenstate we presume the perturbed system's vector space is <strong>still spanned by the old eigenkets</strong>.</p>
+                            <p>\[|b\rangle = \sum_{k} b_k |E_k^{(0)}\rangle \hspace{1em}; \hspace{1em} b_k = \langle E_k^{(0)}| b \rangle\]</p>
+                            <p>By projecting \( |E_m^{(0)}\rangle \neq | E_n^{(0)} \rangle \) and assuming we are <strong>not dealing with a degenerate system</strong> we get</p>
+                            <p>\[b_m = \frac{\langle E_m^{(0)} | \hat{\Delta} | E_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}}\]</p>
+                            <p>But <strong>what about the coefficient for n = k??</strong> We can argue that the projection is 0, physically this implies that the first order change in state is <strong>orthogonal</strong> to the corresponding original state. This is a <strong>consequence of normalisation</strong> (We can think about this using a sphere). Alternatively we can argue that the phase of the state is arbitrary and from normalisation we choose that phase \(e^{i\alpha \beta}\) such that we have this condition.</p>
+                            <p>We can also get the 2nd order change in energy by the same trick as projecting onto the original unperturbed energy eigenket. \(|E_n^{(0)} \rangle \)</p>
+                            <p>\[E_c = \langle E_n^{(0)} | \hat{\Delta} \, | b \rangle\]</p>
+                            <p>\[E_c = \sum_{k \neq 0} \frac{|\langle E_n^{(0)} | \hat{\Delta} \, | E_k^{(0)} \rangle | ^2}{E_n^{(0)} - E_k^{(0)}}\]</p>
+
                     </font>
                     </div>
                 </div>
