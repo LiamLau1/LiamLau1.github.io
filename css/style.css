@@ -299,6 +299,28 @@ footer {
   width: 66%;
   padding-left: 30px;
 }
+
+.entry .body h3 {
+  margin: 0;
+  line-height: 1.4em;
+  font-size: 120%;
+  color: #000;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+}
+
+.entry .body h3 a{
+  margin: 0;
+  line-height: 1.4em;
+  font-family: 'Rajdhani', sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.entry .body h3 a:hover{
+  color: #fff;
+}
 .entry .body p {
   line-height: 1.4em;
   font-family: 'Rajdhani', sans-serif;
@@ -322,7 +344,7 @@ footer {
   font-family: 'Rajdhani', sans-serif;
 }
 .entry .body ul{
-  color: #8B909A;
+  color: #000;
   padding-left: 0;
   list-style-type: none;
   font-family: 'Rajdhani', sans-serif;
@@ -339,7 +361,7 @@ footer {
 }
 
 .entry .body ul li a{
-  color: #846241;
+  color: #000;
   display: inline-block;
   margin-right: 0em;
   font-family: 'Rajdhani', sans-serif;
