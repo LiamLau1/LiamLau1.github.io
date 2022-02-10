@@ -6263,17 +6263,12 @@
 	 */
 	Navigation.Defaults = {
 		nav: false,
-		navText: [
-			'<span aria-label="' + 'prev' + '">&#x2039;</span>',
-			'<span aria-label="' + 'next' + '">&#x203a;</span>'
-		],
+		navText:false,
 		navSpeed: false,
-		navElement: 'button role="presentation"',
+		navElement: false,
 		navContainer: false,
-		navContainerClass: 'owl-nav',
+		navContainerClass: 'owl-nav.disabled',
 		navClass: [
-			'owl-prev',
-			'owl-next'
 		],
 		slideBy: 1,
 		dotClass: 'owl-dot',
