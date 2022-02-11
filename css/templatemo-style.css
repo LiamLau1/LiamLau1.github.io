@@ -464,6 +464,7 @@ header {
   padding-right: 60px;
   padding-bottom: 80px;
   border-bottom: 1px solid #eee;
+  background-color: #f4f4f4;
 }
 
 #featured .section-heading {
@@ -571,7 +572,8 @@ header {
 
 #featured .item .text-content {
   padding-top: 20px;
-  background-color: #fff;
+  background-color: #f4f4f4;
+  /*background-color: #fff;*/
   position: relative;
   z-index: 10;
 }
@@ -755,37 +757,34 @@ header {
 #projects .masonry .item img:hover {
   opacity: 0.5;
 }
+/* Pedagogy Style */
 
-
-
-/* Video Presentation Style */
-
-#video {
-  text-align: center;
-  background-color: #f4f4f4;
+#pedagogy {
+  text-align: left;
+  background-color: #FFFFFF;
   padding: 100px 60px;
 }
 
-#video .section-heading {
+#pedagogy .section-heading {
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
-#video .section-heading h1 {
+#pedagogy .section-heading h1 {
   display: block;
   margin: 0px;
 }
 
-#video .section-heading p {
+#pedagogy .section-heading p {
   position: relative;
   margin: 0px;
 }
 
-#video .accent-button {
+#pedagogy .accent-button {
   margin-top: 30px;
 }
 
-.box-video{
+.box-pedagogy{
   width: 100%;
   position: relative;
   margin-top: 30px;
@@ -793,7 +792,7 @@ header {
   overflow: hidden;
 }
 
-.box-video .bg-video{
+.box-pedagogy .bg-pedagogy{
   position: absolute;
   top: 0;
   left: 0;
@@ -805,13 +804,13 @@ header {
   z-index: 2;
 }
 
-.box-video .video-container{
+.box-pedagogy .pedagogy-container{
   position: relative;
   margin: 0;
   z-index: 1;
 }
 
-.box-video .bt-play {
+.box-pedagogy .bt-play {
   position: absolute;
   top:50%;
   left:50%;
@@ -827,7 +826,7 @@ header {
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
-.box-video .bt-play:after {
+.box-pedagogy .bt-play:after {
   content: '';
   position: absolute;
   left: 50%;
@@ -841,17 +840,119 @@ header {
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
-.box-video:hover .bt-play {
+.box-pedagogy:hover .bt-play {
   transform: scale(1.1);
 }
 
-.box-video.open .bg-video{
+.box-pedagogy.open .bg-pedagogy{
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all .6s .8s;
   transition: all .6s .8s;  
 }
-.box-video.open .video-container{
+.box-pedagogy.open .pedagogy-container{
+  opacity: 1;
+  -webkit-transition: all .6s .8s;
+  transition: all .6s .8s;
+}
+
+
+
+
+/* Research Style */
+
+#research {
+  text-align: left;
+  background-color: #f4f4f4;
+  padding: 100px 60px;
+}
+
+#research .section-heading {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+#research .section-heading h1 {
+  display: block;
+  margin: 0px;
+}
+
+#research .section-heading p {
+  position: relative;
+  margin: 0px;
+}
+
+#research .accent-button {
+  margin-top: 30px;
+}
+
+.box-research{
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.box-research .bg-research{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}
+
+.box-research .research-container{
+  position: relative;
+  margin: 0;
+  z-index: 1;
+}
+
+.box-research .bt-play {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin:-30px 0 0 -30px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background:#fff;
+  border-radius: 50%;
+  text-indent: -999em;
+  cursor: pointer;
+  z-index:2;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.box-research .bt-play:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin: -12px 0 0 -6px;
+  border: solid transparent;
+  border-left-color: #000;
+  border-width: 12px 20px;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.box-research:hover .bt-play {
+  transform: scale(1.1);
+}
+
+.box-research.open .bg-research{
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all .6s .8s;
+  transition: all .6s .8s;  
+}
+.box-research.open .research-container{
   opacity: 1;
   -webkit-transition: all .6s .8s;
   transition: all .6s .8s;
@@ -984,6 +1085,7 @@ header {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
+  background-color: #f4f4f4;
 }
 
 #blog .tabs {
@@ -992,12 +1094,14 @@ header {
   padding: 0px;
   height: 90px;
   width: 100%;
-  background-color: #eee;
+  background-color: #f4f4f4;
+  /*background-color: #eee;*/
   border-bottom: 10px solid #45489a;
 }
 
 #blog .tabs li {
   display: inline-block;
+  background-color: #f4f4f4;
   text-align: center;
   width: 25%;
   float: left;
@@ -1008,6 +1112,7 @@ header {
 #blog .tabs a {
   display: block;
   text-align: center;
+  background-color: #f4f4f4;
   text-decoration: none;
   text-transform: capitalize;
   letter-spacing: 0.5px;
@@ -1034,6 +1139,7 @@ header {
 
 .tabgroup {
   background-color: #f4f4f4;
+  /*background-color: #eee;*/
   padding: 20px 30px;
 }
 
@@ -1302,7 +1408,7 @@ header {
     padding-right: 15px;
   }
 
-  #video {
+  #research {
     padding-left: 15px;
     padding-right: 15px;
   }
