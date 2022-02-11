@@ -75,8 +75,10 @@ jQuery(document).ready(function($) {
         
         //when a nav link is clicked, smooth scroll to the section
         navigation.on('click', 'a', function(event){
-            event.preventDefault(); //prevents previous event
-            smoothScroll($(this.hash));
+		/*
+		    event.preventDefault(); //prevents previous event
+		    smoothScroll($(this.hash));
+		    */
         });
         
         //update navigation on scroll...
@@ -101,6 +103,28 @@ jQuery(document).ready(function($) {
                 }
             });
         }
+
+	
+	function compareURL(){
+		var dirtyurl = (window.location.toString());
+		window.alert($(this.href));
+		var dirtylinkurl = $(this.href).toString();
+		if (dirtyurl.indexOf("#") > 0) {
+                var clean_url = dirtyurl.substring(0,
+                                dirtyurl.indexOf("#"));
+		}
+		if (dirtylinkurl.indexOf("#") > 0) {
+                var clean_linkurl = dirtylinkurl.substring(0,
+                                dirtylinkurl.indexOf("#"));
+		}
+		if (clean_url !== clean_linkurl) {
+			$(window).alert(2);
+		}else{
+			$(window).alert(3);
+		}
+	}
+	
+
         function smoothScroll(target){
             $('body,html').animate({
                 scrollTop: target.offset().top
