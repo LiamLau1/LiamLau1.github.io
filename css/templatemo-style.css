@@ -36,6 +36,16 @@ p {
   transform: translateX(-50%);
 }
 
+.blog-item {
+  text-align: left;
+  line-height: 1.8;
+  font-size: 15px;
+}
+.blog-item a{
+	color: #45489a;
+	font-weight: 700;
+}
+
 .section-heading {
   text-align: left;
   position: relative;
@@ -596,6 +606,198 @@ header {
   margin-bottom: 12.5px;
 }
 
+/* Blog Entries Style */
+
+#blogentries {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #eee;
+  background-color: #f4f4f4;
+}
+
+#blogentries .section-heading {
+  margin-right: 20%;
+}
+
+#blogentries .content-section {
+  display: inline-block;
+  position: relative;
+}
+
+#blogentries .owl-dots {
+  margin-top: 40px;
+}
+
+#blogentries .owl-dots .owl-dot span  {
+  width: 12px;
+  height: 12px;
+  background-color: #cdcdcd!important;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+#blogentries .owl-dots .active span {
+  background-color: #45489a!important;
+}
+
+#blogentries .owl-dots button {
+  outline: none;
+}
+
+#blogentries .owl-nav {
+  position: absolute;
+  display: inline-block;
+  top: -110px;
+  right: 0;
+}
+
+#blogentries .owl-nav button:focus {
+  outline: none;
+}
+
+#blogentries .owl-nav .owl-prev span {
+  margin-right: 10px;
+}
+
+#blogentries .owl-nav .owl-next span, #blogentries .owl-nav .owl-prev span {
+  outline: none;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 42px;
+  background-color: #eee;
+  color: #232323;
+  font-size: 42px;
+  transition: all 0.5s;
+}
+
+#blogentries .owl-nav span:hover {
+  background-color: #45489a;
+  color: #fff;
+}
+
+#blogentries h2 {
+  text-align: left;
+  text-decoration: underline;
+  color: #45489a;
+  font-weight: 700;
+  position: relative;
+  z-index: 10;
+}
+
+#blogentries h3 {
+  text-align: left;
+  color: #9c9a9a;
+  font-size: 15px;
+  position: relative;
+  z-index: 10;
+}
+
+#blogentries h4 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  z-index: 10;
+}
+
+#blogentries p {
+  text-align: left;
+  color: #262525;
+  font-size: 15px;
+  position: relative;
+  z-index: 10;
+}
+
+#blogentries p em{
+  text-align: left;
+  color: #45489a;
+  font-size: 15px;
+  position: relative;
+  z-index: 10;
+}
+#blogentries a{
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  z-index: 10;
+}
+#blogentries a:hover{
+  text-align: left;
+  color: #45489a;
+  position: relative;
+  z-index: 10;
+}
+
+#blogentries .item {
+  text-align: left;
+  position: relative;
+  z-index: 10;
+}
+
+#blogentries .item .image {
+  position: relative;
+}
+
+#blogentries .item .image img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#blogentries .item .image .blogentries-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(69,72,154, 0.9);
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 9;
+  bottom: -44px;
+  opacity: 0;
+}
+
+#blogentries .item:hover .blogentries-button a {
+  bottom: 0;
+  opacity: 1;
+}
+
+#blogentries .item .text-content {
+  padding-top: 20px;
+  background-color: #f4f4f4;
+  /*background-color: #fff;*/
+  position: relative;
+  z-index: 10;
+}
+
+#blogentries .item .text-content h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#blogentries .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 12.5px;
+}
 /* CV Style */
 
 #CV {
