@@ -95,6 +95,26 @@ p {
   color: #fff;
 }
 
+.blue-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #45489a;
+  text-transform: capitalize;
+  background-color: #45489a;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 25px;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.blue-button a:hover {
+  background-color: #4e779e;
+  color: #fff;
+}
+
 .accent-button a {
   font-size: 13px;
   font-weight: 600;
@@ -403,6 +423,7 @@ header {
 
 .Modern-Slider .PrevArrow{
   outline: none;
+  display: none;
   position:absolute;
   top:60px;
   right: 120px;
@@ -438,6 +459,14 @@ header {
   background-image: url(../img/rs2.jpg);
 }
 
+.Modern-Slider .item-4 .image {
+  background-image: url(../img/latticesketch.jpg);
+}
+
+.Modern-Slider .item-welcome .image {
+  background-image: url(../img/welcomeimage.jpg);
+}
+
 .Modern-Slider .PrevArrow:before{content:'\f104';}
 
 .Modern-Slider .item .image {
@@ -465,6 +494,12 @@ header {
 .slick-initialized .slick-slide{display:block}
 .slick-loading .slick-slide{visibility:hidden}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+.slick-arrow.slick-disabled {
+  display: none !important;
+}
+.slick-prev:before .slick-next:before{
+	display:none;
+}
 
 
 /* About Me Style */
